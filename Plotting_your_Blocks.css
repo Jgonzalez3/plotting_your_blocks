@@ -1,0 +1,42 @@
+#wrapper, #navigation, #main_content, #header{
+    margin: 10px;
+    padding: 10px;
+}
+#wrapper{
+    background: silver;
+    height: auto;
+    width: 980px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#header{
+    background: green;
+    display: block;
+    height: 150px;
+}
+#navigation{
+    background: blue;
+    height: 300px;
+    width: 200px;
+    float: left;
+}
+#main_content{
+    background: red;
+    width: 700px;
+    height: 400px;
+    float: right;
+}
+.subcontents{
+    height: 200px;
+    width: 210px;
+    background: yellow;
+    display: inline-block;
+    margin: 5px;
+}
+#advertisement{
+    height: 120px;
+    width: 660px;
+    display: block;
+    background: purple;
+    margin: 20px 5px;
+}
